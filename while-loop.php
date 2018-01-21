@@ -7,6 +7,16 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
+
+    <?php
+
+    $counter = 0;
+    while ( $counter < 10 ) {
+        echo $counter;
+        $counter++;
+    }
+    
+    ?>
     
     </body>
 </html>

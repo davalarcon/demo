@@ -7,6 +7,14 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
+
+    <?php 
+
+    for ($counter=0; $counter < 10 ; $counter++) { 
+        echo $counter . '<br>';
+    }
+
+    ?>
     
     </body>
 </html>

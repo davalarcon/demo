@@ -7,6 +7,16 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
+
+    <?php
+
+    $numbers = array(2,4,6,8,10);
+
+    foreach ($numbers as $number) {
+        echo $number . "<br>";
+    }
+
+    ?>
     
     </body>
 </html>
